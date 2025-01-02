@@ -1,0 +1,429 @@
+body{
+  background-image:url('../cesar-couto-27HiryxnHJk-unsplash.jpg');
+  background-size: cover;
+}
+.pageHeading{
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  box-shadow: 1px 1px grey;
+  background-color: #007a63;
+  color: #f1f1f1;
+}
+.styled-table{
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table tr {
+  background-color: #007a63;
+  color:white;
+  text-align: left;
+}
+
+.styled-table-Product{
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  position: relative;
+  left:50px;
+}
+
+.styled-table-Product tr{
+  background-color: #007a63;
+  color:white;
+  text-align: left;
+}
+
+div .styled-table-ProductMgt{
+  position: relative;
+  border: none;
+  /* backdrop-filter: blur(10px); */
+  top:20px;
+  background-color:#C8C2B0;
+  color:white;
+  /* text-align: left; */
+  text-align: center;
+  width:500px;
+}
+
+.styled-table-ProductMgt th,
+.styled-table-ProductMgt td{
+  padding: 12px 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger; 
+}
+.styled-table-ProductMgt{
+  border-bottom: 1px solid #dddddd;
+
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+  
+
+}
+
+.styled-table tr {
+  border-bottom: 1px solid #dddddd;
+  color: white;
+}
+
+/* .styled-table tr:hover {
+  background-color:lightgreen;
+  cursor: pointer;
+} */
+
+
+.styled-select {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #009879;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 1em;
+  appearance: none; /* Remove default arrow */
+  background-image: url('data:image/png;base64,...'); /* Custom arrow icon */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Position the arrow */
+  background-size: 12px; /* Size of the arrow */
+  cursor: pointer;
+}
+
+/* Add focus style */
+.styled-select:focus {
+  outline: none;
+  border-color: #007a63;
+  box-shadow: 0 0 5px rgba(0, 122, 99, 0.5);
+}
+
+.select-option{
+  position: relative;
+  color:green;
+}
+
+.custom-button {
+  background-color: #4CAF50; 
+  border: none; 
+  color: white; 
+  padding: 10px 25px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 18px; 
+  margin: 1px 1px; 
+  cursor: pointer; 
+  border-radius: 8px; 
+  transition: background-color 0.3s; 
+}
+
+
+img{
+  border-radius: 20%;
+  position: relative;
+  right: 6%;
+  height: 100px;
+  width: 100px;
+}
+
+.styled-table tr td input{
+  width: 300px;
+  height: 40px;
+  border-color: #009879;
+  border-radius: 8px;
+  
+}
+
+.loginBox{
+  margin-top: 70px;
+  height:250px;
+  width: 360px;
+  /* border: 0.5px solid grey; */
+  box-shadow: 1px 2px 3px 4px gainsboro;
+  align-content: center;
+  padding-left: 5px 5px;
+  backdrop-filter: blur(40px);
+
+
+}
+.loginBox .headingTag{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.loginBox tr{
+  color: grey;
+  display:flexbox;
+  justify-content: space-between;
+}
+
+.loginBox tr td{
+  display: flex;
+  font-weight: bolder;
+  margin-left: 15px;
+  margin-top: 5px;
+
+
+}
+.loginBox tr td input{
+  width: 330px;
+  /* border: 2px solid grey; */
+  border-radius: 5px;
+  color:black;
+  font-weight: 500;
+}
+
+.loginBox tr td .checkbox{
+  position: relative;
+  bottom: 22px;
+  right: 35px;
+}
+
+.LoginButton{
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  padding: 5px 5px;
+  width: 200px;
+  font-weight: 500;
+  border-radius: 5px;
+  position: relative;
+  left: 60px;
+}
+
+.LoginButton:hover{
+  transition: 0.5 s ease-in;
+  background-color: green;
+}
+
+.PrdctList-header-Container label{
+ color: white;
+ position: relative;
+ left: 160px;
+ top:23px;
+ font-size: larger;
+ font-weight: 700;
+}
+
+.Prdct-List-Heading{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: larger;
+  position: relative;
+  top: 10px;
+  color: white;
+}
+
+.PrdctList-header-Container .checkoutLogo{
+ position: relative;
+ left: 12px;
+ height: 25px;
+ width: 25px;
+ top:18px;
+ z-index: 1;
+mix-blend-mode: color-burn;
+}
+
+.ProductList-ChekOutBtn{
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  padding: 5px 5px;
+  width: 200px;
+  font-weight: 500;
+  border-radius: 5px;
+  position: relative;
+  left: 60px;
+}
+
+.PrdctList-header-Container button{
+  border-radius: 50px;
+  background-color:grey;
+  border: none;
+  color:white ;
+  padding: 6px 30px;
+  font-weight: bolder;
+  position: relative;
+  left: -13px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.PrdctList-header-Container .checkoutLogo:hover{
+  position: relative;
+  /* left: 68px;
+  height: 25px;
+  width: 25px;
+  top:20px;
+  z-index: 1;
+ mix-blend-mode: color-burn; */
+ transform: translate(105px) ;
+ transition-duration: 1s ;
+ }
+
+.PrdctList-header-Container button:active{
+ color: white;
+ background-color:#8EA1AF;
+ padding: 5px 5px;
+ z-index: 2;
+}
+
+.my-select {
+  width: 200px;          
+  padding: 10px;          
+  border: 1px solid grey;  
+  border-radius: 5px;     
+  background-color: #90A5B6; 
+  font-size: 15px;  
+  height: 40px;
+  position: relative;
+  left:5px;
+  bottom: 30px;
+
+}
+
+.my-select option {
+  background-color: #ECCFAD;  
+  color: #333;             
+}
+
+.search-category{
+  color: white;
+  position: relative;
+  bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  
+}
+
+/* navbar starts */
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:#F1D0A7;
+  top:0px;
+   height: 60px;
+ 
+}
+
+.navbar li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar li button{
+border-style: none;
+background: none;
+position: relative;
+top:-10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+left: 20px;
+}
+
+
+.navbar li .Company-Logo{
+  height: 80px;
+  width: 100px;
+  right: 260px;
+  mix-blend-mode: color-burn;
+  position: relative;
+  bottom: 20px;
+  
+} 
+
+/*Navbar ends*/
+
+
+.customerId-display{
+position: relative;
+left:120px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+bottom:55px;
+font-weight: bolder;
+}
+
+.profile-DP{
+  position: relative;
+  left:500px;
+  top:10px;
+  height:300px;
+  width:500px;
+  mix-blend-mode:normal;
+}
+
+.MainPage-nabar{
+  display: flex;
+  justify-content: space-around;
+  background-color: #F2D2A8;
+  height: 60px;
+}
+
+.Company-Logo-MainPage{
+  position: relative;
+  height: 70px;
+  width: 70px;
+  right:110px;
+  mix-blend-mode:darken;
+
+}
+
+.CustomerMain-Photo{
+  top:10px;
+  height: 300px;
+  width:900px ;
+  position: relative;
+  left:10px;
+  
+}
+
+.CustomerMain-navbar{
+  display: flex;
+  flex-direction: column;
+}
+.CustomerMain-navbar ul li{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top:10px;
+
+}
+
+.Coverphoto{
+  height:600px;
+  width: 1500px;
+  left:12px;
+  top:2px;
+}
+
+
+
+
+
+
+
+
+
+
